@@ -44,7 +44,7 @@ export function Header() {
         {/* Desktop Navigation Links */}
         <nav className="hidden items-center gap-6 text-xs font-semibold text-slate-200 lg:flex">
           <Link
-            href="/how-to-choose"
+            href="/#choose"
             className="flex items-center gap-1.5 transition-colors hover:text-[#d7f27c]"
           >
             <CheckCircle2 size={15} className="text-[#d7f27c]" />
@@ -91,7 +91,7 @@ export function Header() {
                     
                     {/* Refrigerator */}
                     <Link
-                      href="/repair-guides/refrigerator"
+                      href="/repair-guides/RefrigeratorRepair"
                       className="flex items-start gap-3 rounded-2xl p-2.5 transition-colors hover:bg-slate-50"
                     >
                       <div className="flex size-9 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
@@ -189,7 +189,7 @@ export function Header() {
                     </div>
 
                     <Link
-                      href="/repair-vs-buy"
+                      href="/#repair-vs-buy"
                       className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-blue-600 px-4 py-2.5 text-center text-xs font-semibold text-white transition-colors hover:bg-blue-700"
                     >
                       Open Decision Tool <ArrowRight size={12} />
@@ -202,7 +202,7 @@ export function Header() {
           </div>
 
           <Link
-            href="/repair-vs-buy"
+            href="/#repair-vs-buy"
             className="flex items-center gap-1.5 transition-colors hover:text-[#d7f27c]"
           >
             <Scale size={15} className="text-[#d7f27c]" />
@@ -210,7 +210,7 @@ export function Header() {
           </Link>
 
           <Link
-            href="/quote-verification"
+            href="/#quote-verification"
             className="flex items-center gap-1.5 transition-colors hover:text-[#d7f27c]"
           >
             <FileCheck size={15} className="text-[#d7f27c]" />
@@ -218,7 +218,7 @@ export function Header() {
           </Link>
 
           <Link
-            href="/safety-tips"
+            href="/#safety-tips"
             className="flex items-center gap-1.5 transition-colors hover:text-[#d7f27c]"
           >
             <ShieldAlert size={15} className="text-[#d7f27c]" />
@@ -237,7 +237,7 @@ export function Header() {
             <div className="absolute top-full right-0 pt-2 hidden w-56 group-hover:block">
               <div className="rounded-2xl border border-slate-100 bg-white p-2 text-slate-800 shadow-xl">
                 <Link
-                  href="/faq"
+                  href="/#faq"
                   className="flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-slate-50"
                 >
                   <HelpCircle size={16} className="text-slate-400 shrink-0 mt-0.5" />
@@ -247,7 +247,7 @@ export function Header() {
                 </Link>
 
                 <Link
-                  href="/about-guides"
+                  href="/about"
                   className="flex items-start gap-3 rounded-xl p-3 transition-colors hover:bg-slate-50"
                 >
                   <Info size={16} className="text-slate-400 shrink-0 mt-0.5" />
@@ -284,25 +284,25 @@ export function Header() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className="mt-4 flex flex-col gap-4 border-t border-white/10 pt-4 lg:hidden">
-          <Link href="/how-to-choose" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
+          <Link href="/#choose" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
             <CheckCircle2 size={16} className="text-[#d7f27c]" /> How to Choose
           </Link>
           <Link href="/repair-guides" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
             <LayoutGrid size={16} className="text-[#d7f27c]" /> Repair Guides
           </Link>
-          <Link href="/repair-vs-buy" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
+          <Link href="/#repair-vs-buy" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
             <Scale size={16} className="text-[#d7f27c]" /> Repair vs Buy
           </Link>
-          <Link href="/quote-verification" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
+          <Link href="/#quote-verification" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
             <FileCheck size={16} className="text-[#d7f27c]" /> Quote Verification
           </Link>
-          <Link href="/safety-tips" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
+          <Link href="/#safety-tips" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
             <ShieldAlert size={16} className="text-[#d7f27c]" /> Safety Tips
           </Link>
-          <Link href="/faq" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
+          <Link href="/#faq" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
             <HelpCircle size={16} className="text-[#d7f27c]" /> FAQ
           </Link>
-          <Link href="/about-guides" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
+          <Link href="/about" className="flex items-center gap-2 text-xs font-semibold text-slate-200">
             <Info size={16} className="text-[#d7f27c]" /> About Our Project
           </Link>
 

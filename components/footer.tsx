@@ -34,7 +34,7 @@ export function Footer() {
             <div className="flex items-center gap-2">
               {/* If you have a logo icon/svg component, place it here */}
               <span className="font-serif text-xl font-bold tracking-tight text-white">
-                FairRepairGuide
+                For Best Guide
               </span>
             </div>
             <p className="mt-4 text-xs text-slate-400 leading-relaxed max-w-sm">
@@ -147,7 +147,7 @@ export function Footer() {
 
         {/* Bottom Copyright & Legal Links */}
         <div className="mt-16 flex flex-col justify-between gap-4 border-t border-white/10 pt-8 text-[11px] text-slate-400 md:flex-row md:items-center">
-          <p>© 2026 FairRepairGuide.co — Independent Education Resource.</p>
+          <p>© 2026 ForBestGuide.com — Independent Education Resource.</p>
           <div className="flex items-center gap-6">
             <Link href="/privacy" className="hover:text-white transition-colors">
               Privacy

@@ -300,7 +300,7 @@ export default function HomePage() {
         {/* ==========================================
             EXPLORE CONSUMER GUIDES (Screenshots 3-6)
         ========================================== */}
-        <section className="bg-[#f7f7f3] px-5 py-20 lg:px-8">
+        <section id="choose" className="bg-[#f7f7f3] px-5 py-20 lg:px-8">
       <div className="mx-auto max-w-7xl">
         
         {/* Section Header */}
@@ -660,7 +660,7 @@ export default function HomePage() {
         {/* ==========================================
             REPAIR OR REPLACE? SECTION (Screenshots 7-8)
         ========================================== */}
-        <section className="bg-white px-5 py-20 lg:px-8">
+        <section id="repair-vs-buy" className="bg-white px-5 py-20 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8aa231]">
@@ -824,7 +824,7 @@ export default function HomePage() {
         {/* ==========================================
             QUOTE VERIFICATION SECTION (Screenshots 9-10)
         ========================================== */}
-        <section className="bg-[#f7f7f3] px-5 py-20 lg:px-8">
+        <section id="quote-verification" className="bg-[#f7f7f3] px-5 py-20 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8aa231]">
@@ -1059,7 +1059,7 @@ export default function HomePage() {
         {/* ==========================================
             CHECK THE WORK FIRST (Screenshots 12-13)
         ========================================== */}
-        <section className="bg-[#f7f7f3] px-5 py-20 lg:px-8">
+        <section id="safety-tips" className="bg-[#f7f7f3] px-5 py-20 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8aa231]">
@@ -1243,7 +1243,7 @@ export default function HomePage() {
         {/* ==========================================
             COMMON QUESTIONS FAQ (Screenshots 14-15)
         ========================================== */}
-        <section className="bg-white px-5 py-20 lg:px-8 border-t border-slate-200">
+        <section id="faq" className="bg-white px-5 py-20 lg:px-8 border-t border-slate-200">
           <div className="mx-auto max-w-7xl">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#8aa231]">
