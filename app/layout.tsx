@@ -3,6 +3,8 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
+import CustomScript from './CustomScript';
+import LegacyAnalytics from './LegacyAnalytics';
 
 export const metadata: Metadata = {
   title: "For Best Guide | Clear advice for everyday decisions",
@@ -23,10 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <LegacyAnalytics />
+        <CustomScript />
+        <div id="page-content" className="page-hidden">
         <Header/>
         {children}
         <Footer/>
         {process.env.NODE_ENV === "production" && <Analytics />}
+        </div>
       </body>
     </html>
   );

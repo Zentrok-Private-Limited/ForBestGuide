@@ -161,3 +161,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.page-hidden {
+  visibility: hidden;
+}
+
+.page-visible {
+  visibility: visible;
+}
+
