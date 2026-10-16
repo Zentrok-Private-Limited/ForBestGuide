@@ -27,12 +27,12 @@ export default function RootLayout({
       <body className="antialiased">
         <LegacyAnalytics />
         <CustomScript />
-        <div id="page-content" className="page-hidden">
+        {/* <div id="page-content" className="page-hidden"> */}
         <Header/>
         {children}
         <Footer/>
         {process.env.NODE_ENV === "production" && <Analytics />}
-        </div>
+        {/* </div> */}
       </body>
     </html>
   );
